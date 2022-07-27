@@ -1,0 +1,8 @@
+leaflet_maps.example:
+  path: '/leaflet-maps'
+  defaults:
+    _title: 'Maps'
+    _controller: '\Drupal\leaflet_maps\Controller\LeafletMapsController::build'
+  requirements:
+    _permission: 'access content'
+
